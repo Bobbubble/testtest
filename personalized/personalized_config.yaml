@@ -1,0 +1,52 @@
+# Input query files (processed one by one in this order)
+query_data_paths:
+  - query_data_train.jsonl
+  - query_data_validate.jsonl
+  - query_data_test.jsonl
+
+# API settings (OpenAI-compatible endpoint)
+base_url: https://integrate.api.nvidia.com/v1
+api_key: 
+
+# Generation/judge common runtime settings
+seed: 42
+max_retries: 3
+temperature: 0.0
+max_tokens: 1024
+
+# Model used for pairwise judging
+judge_model: deepseek-ai/deepseek-v3.1
+
+# Candidate models for answer generation
+llm_pool:
+  - stepfun-ai/step-3.5-flash
+  - nvidia/nemotron-3-nano-30b-a3b
+  - mistralai/devstral-2-123b-instruct-2512
+  - mistralai/mistral-large-3-675b-instruct-2512
+  - mistralai/ministral-14b-instruct-2512
+  - stockmark/stockmark-2-100b-instruct
+  - qwen/qwen3-next-80b-a3b-instruct
+  - moonshotai/kimi-k2-instruct-0905
+  - openai/gpt-oss-120b
+  - openai/gpt-oss-20b
+  - qwen/qwen2.5-7b-instruct
+  - meta/llama-3.3-70b-instruct
+  - nvidia/nvidia-nemotron-nano-9b-v2
+  - bytedance/seed-oss-36b-instruct
+  - speakleash/bielik-11b-v2.6-instruct
+  - marin/marin-8b-instruct
+  - utter-project/eurollm-9b-instruct
+  - nvidia/usdcode-llama-3.1-70b-instruct
+  - qwen/qwen2.5-coder-32b-instruct
+  - moonshotai/kimi-k2-thinking
+
+# Persona file
+personas: personas.jsonl
+# Output directory
+output: outputs
+# Flush JSONL buffer every N rows
+save_every: 10
+# Parallelism settings
+generate_workers: 8
+judge_workers: 8
+max_in_flight: 16

@@ -1,0 +1,122 @@
+{
+  "stepfun-ai/step-3.5-flash": {
+    "feature": "Step-3.5-Flash is a fast instruction-following model designed for responsive dialogue, general question answering, and lightweight reasoning tasks. This model is positioned as an efficient candidate for high-throughput routing scenarios where latency and affordability matter.",
+    "input_price": 0.1,
+    "output_price": 0.3,
+    "model": "stepfun-ai/step-3.5-flash"
+  },
+  "nvidia/nemotron-3-nano-30b-a3b": {
+    "feature": "Nemotron-3-Nano-30B-A3B is a compact NVIDIA reasoning model built for efficient instruction following and general-purpose language tasks. Its architecture targets a practical balance between model capability and serving efficiency for cost-sensitive applications.",
+    "input_price": 0.05,
+    "output_price": 0.2,
+    "model": "nvidia/nemotron-3-nano-30b-a3b"
+  },
+  "mistralai/devstral-2-123b-instruct-2512": {
+    "feature": "Devstral-2-123B-Instruct is a large Mistral model oriented toward software engineering, coding assistance, and complex instruction-following tasks. Its scale makes it a strong candidate for programming, debugging, and structured technical reasoning workloads.",
+    "input_price": 0.05,
+    "output_price": 0.22,
+    "model": "mistralai/devstral-2-123b-instruct-2512"
+  },
+  "mistralai/mistral-large-3-675b-instruct-2512": {
+    "feature": "Mistral-Large-3-675B-Instruct is a large-scale instruction-tuned model designed for advanced reasoning, multilingual dialogue, and high-quality long-form generation. This model is positioned as a premium candidate for difficult tasks that require stronger reliability and broad language understanding.",
+    "input_price": 0.5,
+    "output_price": 1.5,
+    "model": "mistralai/mistral-large-3-675b-instruct-2512"
+  },
+  "mistralai/ministral-14b-instruct-2512": {
+    "feature": "Ministral-14B-Instruct is a compact Mistral instruction model designed for fast conversational AI and general text generation. Its smaller size makes it useful for routing scenarios that need efficient responses while preserving solid instruction-following performance.",
+    "input_price": 0.2,
+    "output_price": 0.2,
+    "model": "mistralai/ministral-14b-instruct-2512"
+  },
+  "stockmark/stockmark-2-100b-instruct": {
+    "feature": "Stockmark-2-100B-Instruct is a large instruction-tuned model aimed at professional knowledge work, business reasoning, and high-quality text generation. Its scale makes it suitable for complex analytical prompts, summarization, and enterprise-style assistant tasks.",
+    "input_price": 0.00,
+    "output_price": 0.00,
+    "model": "stockmark/stockmark-2-100b-instruct"
+  },
+  "qwen/qwen3-next-80b-a3b-instruct": {
+    "feature": "Qwen3-Next-80B-A3B-Instruct is an advanced Qwen instruction model designed for multilingual understanding, reasoning, and general assistant use. Its architecture targets strong performance on diverse language tasks while maintaining efficient activation for practical deployment.",
+    "input_price": 0.09,
+    "output_price": 1.1,
+    "model": "qwen/qwen3-next-80b-a3b-instruct"
+  },
+  "moonshotai/kimi-k2-instruct-0905": {
+    "feature": "Kimi-K2-Instruct is a Moonshot AI instruction model designed for long-context understanding, dialogue, and complex reasoning tasks. This model is a strong candidate for prompts requiring detailed comprehension, careful instruction following, and high-quality explanatory responses.",
+    "input_price": 0.4,
+    "output_price": 2.0,
+    "model": "moonshotai/kimi-k2-instruct-0905"
+  },
+  "openai/gpt-oss-120b": {
+    "feature": "GPT-OSS-120B is a large open-weight OpenAI model designed for broad instruction following, reasoning, and general language generation. Its larger size makes it suitable for challenging prompts that benefit from stronger modeling capacity and robust conversational ability.",
+    "input_price": 0.04,
+    "output_price": 0.19,
+    "model": "openai/gpt-oss-120b"
+  },
+  "openai/gpt-oss-20b": {
+    "feature": "GPT-OSS-20B is a medium-size open-weight OpenAI model built for general instruction following, dialogue, and reasoning tasks. This model offers a more efficient alternative to larger candidates while retaining useful performance for common assistant workloads.",
+    "input_price": 0.03,
+    "output_price": 0.14,
+    "model": "openai/gpt-oss-20b"
+  },
+  "qwen/qwen2.5-7b-instruct": {
+    "feature": "Qwen2.5-7B-Instruct represents an upgraded version of the Qwen model series, featuring significantly enhanced multilingual capabilities across diverse language tasks. On OpenRouter, the current listed price is $0.04 per million input tokens and $0.10 per million output tokens.",
+    "input_price": 0.04,
+    "output_price": 0.1,
+    "model": "qwen/qwen2.5-7b-instruct"
+  },
+  "meta/llama-3.3-70b-instruct": {
+    "feature": "Llama-3.3-70B-Instruct is Meta's 70-billion parameter instruction model designed for high-quality dialogue, reasoning, and broad language understanding. This model is a strong general-purpose candidate for complex prompts, multilingual tasks, and reliable assistant responses.",
+    "input_price": 0.23,
+    "output_price": 0.4,
+    "model": "meta/llama-3.3-70b-instruct"
+  },
+  "nvidia/nvidia-nemotron-nano-9b-v2": {
+    "feature": "NVIDIA-Nemotron-Nano-9B-v2 is a compact NVIDIA instruction model optimized for efficient reasoning and conversational tasks. Its smaller footprint makes it useful for fast routing decisions, lightweight generation, and cost-aware assistant workloads.",
+    "input_price": 0.04,
+    "output_price": 0.16,
+    "model": "nvidia/nvidia-nemotron-nano-9b-v2"
+  },
+  "bytedance/seed-oss-36b-instruct": {
+    "feature": "Seed-OSS-36B-Instruct is a ByteDance open-source instruction model designed for general dialogue, reasoning, and text generation. Its mid-size scale provides a useful balance between stronger capability and practical efficiency across common assistant tasks.",
+    "input_price": 0.00,
+    "output_price": 0.00,
+    "model": "bytedance/seed-oss-36b-instruct"
+  },
+  "speakleash/bielik-11b-v2.6-instruct": {
+    "feature": "Bielik-11B-v2.6-Instruct is an 11-billion parameter instruction model with an emphasis on multilingual and European language use cases. This model is suitable for general assistant tasks, localized dialogue, and efficient instruction following.",
+    "input_price": 0.67,
+    "output_price": 0.67,
+    "model": "speakleash/bielik-11b-v2.6-instruct"
+  },
+  "marin/marin-8b-instruct": {
+    "feature": "Marin-8B-Instruct is a compact instruction-tuned model designed for efficient general-purpose dialogue and text generation. Its smaller size makes it a practical candidate for low-latency routing scenarios and straightforward assistant tasks.",
+    "input_price": 0.18,
+    "output_price": 0.18,
+    "model": "marin/marin-8b-instruct"
+  },
+  "utter-project/eurollm-9b-instruct": {
+    "feature": "EuroLLM-9B-Instruct is a 9-billion parameter instruction model focused on multilingual European language capabilities and general assistant use. This model is useful for routing workloads that involve translation, localized writing, and cross-lingual understanding.",
+    "input_price": 0.00,
+    "output_price": 0.00,
+    "model": "utter-project/eurollm-9b-instruct"
+  },
+  "nvidia/usdcode-llama-3.1-70b-instruct": {
+    "feature": "USDCode-Llama-3.1-70B-Instruct is a code-oriented 70-billion parameter Llama model designed for programming assistance, technical reasoning, and software development tasks. This model is a strong candidate for routing coding prompts that require larger-model capability.",
+    "input_price": 0.00,
+    "output_price": 0.00,
+    "model": "nvidia/usdcode-llama-3.1-70b-instruct"
+  },
+  "qwen/qwen2.5-coder-32b-instruct": {
+    "feature": "Qwen2.5-Coder-32B-Instruct is a 32-billion parameter coding model from the Qwen series, optimized for code generation, debugging, and technical instruction following. This model is well suited for software engineering prompts that require stronger code understanding.",
+    "input_price": 0.06,
+    "output_price": 0.15,
+    "model": "qwen/qwen2.5-coder-32b-instruct"
+  },
+  "moonshotai/kimi-k2-thinking": {
+    "feature": "Kimi-K2-Thinking is a Moonshot AI model oriented toward deliberate reasoning, complex problem solving, and detailed analytical responses. This model is a strong candidate for prompts that benefit from careful step-by-step thinking and robust long-form explanation.",
+    "input_price": 0.47,
+    "output_price": 2.0,
+    "model": "moonshotai/kimi-k2-thinking"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "mt_bench": "MT-Bench is a multi-turn instruction-following benchmark that evaluates assistant responses on open-ended conversational tasks requiring reasoning, writing, role-play, and problem solving.",
+  "chatbot_arena": "Chatbot Arena contains real user prompts for open-ended assistant dialogue. The task emphasizes helpfulness, relevance, safety, and user preference in natural conversational settings."
+}
